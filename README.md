@@ -1,3 +1,5 @@
+<img align="right" width="30%" src="./artwork/sami.jpg" />
+
 # Geleceğin Türkiyesi - Oyun
 
 | 🚧 Uyari: Bu yarim kalmis bir projedir. Oynanabilir bir oyun barindirmaz. 🚧 |
@@ -6,8 +8,6 @@
 Bu proje https://github.com/pemre/gelecegin-turkiyesi icinde yer alan önerileri hayata gecirebileceginiz bir oyun konseptidir.
 
 ## Öyküsü
-
-<img align="right" width="50%" src="./artwork/sami.jpg" />
 
 Secimlerde sizin partiniz cogunluk oyu alarak kazanmis. Hangi tür partiyle Türkiye'yi yoneteceksiniz? Amacin duz adam Sami'yi (ve belki bir duz kadin karakter) ve tum Türkiye'yi maksimum huzur seviyesine cikartmak.
 
