@@ -24,7 +24,7 @@ export class Sami {
     public expenseSocialActivities: number = 120 //       [0 - 150]
   ) {}
 
-  getHappiness(): number {
+  getHappiness(): string {
     const happiness =
       weightedScor_(5, 0, 60, this.weeklyWorkingHours) +
       weightedScore(10, 0, 25, this.weeklyVoluntaryHours) +
