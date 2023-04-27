@@ -1,0 +1,14 @@
+{
+  "JUSTICE": [
+    "Yeni ceza kanunu [A|1000]",
+    "1 Adalet bir vaat [B|1110]",
+    "2 Adalet Uzun surecek bir tane [B|1100]",
+    "3 Adalet Bambaska vaadimi [C|1100]"
+  ],
+  "ENVIRONMENT": [
+    "Agac dik [C|1110]",
+    "Ormanlari koruma kanunu [D|1100]",
+    "Yeni bir cevre vaadi [E|1111]",
+    "Cok kisa cevre vaadimi [E|1110]"
+  ]
+}

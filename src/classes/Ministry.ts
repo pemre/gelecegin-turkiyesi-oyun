@@ -1,7 +1,15 @@
+import { Promise } from "./Promise";
+
+export enum Names {
+  JUSTICE = "JUSTICE",
+  ENVIRONMENT = "ENVIRONMENT",
+}
+
 export class Ministry {
   constructor(
-    public name: string,
-    public budget: number = 5 // [1 - 81] // public promises: Array,
+    public name: Names,
+    public budget: number = 5, // [1 - 81]
+    public promises: Array<Promise> = []
   ) {}
 
   decreaseBudget(): string {
@@ -20,5 +28,9 @@ export class Ministry {
 
     this.budget++;
     return "OK";
+  }
+
+  addPromise(promise: Promise): void {
+    this.promises.push(promise);
   }
 }

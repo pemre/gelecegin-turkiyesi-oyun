@@ -1,6 +1,6 @@
 import { weightedScore, weightedScor_ } from "../helpers/weighted-score";
 
-export class Sami {
+export class Person {
   constructor(
     public weeklyWorkingHours: number = 45, //            [0 - 60]
     public weeklyVoluntaryHours: number = 0, //           [0 - 25]
