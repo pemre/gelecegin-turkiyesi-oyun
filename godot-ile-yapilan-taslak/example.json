@@ -1,0 +1,40 @@
+{
+	"font_name": "xcom-small-font",
+	"font_file_path": "res://your_font_file.fnt",
+	"texture_file_path": "res://xcom-font-small.png",
+	"font_size": 9,
+	"is_bold": 0,
+	"is_italic": 0,
+	"line_height": 9,
+	"base": 9,
+	"char_width": 8,
+	"char_height": 9,
+	"img_width": 128,
+	"img_height": 216,
+	"xadvance_default": 8,
+	"xadvances": [
+		{
+			"xadvance": 9,
+			"characters": ["m", "[", "]"]
+		},
+		{
+			"xadvance": 6,
+			"characters": ["a", "h", "o", "p", "r"]
+		},
+		{
+			"xadvance": 5,
+			"characters": ["b", "c", "d","e","g" ,"l", "s", "1"]
+		},
+		{
+			"xadvance": 4,
+			"characters": ["f", "i", "t","."]
+		}
+	],
+	"kerning": [
+		{
+			"first": ".",
+			"second": ".",
+			"amount": -10
+		}
+	]
+}

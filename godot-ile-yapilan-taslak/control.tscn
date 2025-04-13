@@ -1,0 +1,167 @@
+[gd_scene load_steps=5 format=3 uid="uid://2ouxgm5ehm1p"]
+
+[ext_resource type="Texture2D" uid="uid://cnxxhlr071q06" path="res://images/transportation.png" id="1_8yoel"]
+[ext_resource type="FontFile" uid="uid://cqwf3rpmi7x2d" path="res://your_font_file.fnt" id="2_eaeb6"]
+[ext_resource type="Texture2D" uid="uid://c7kkrk3b2cv5s" path="res://images/bar.png" id="3_m5xrc"]
+[ext_resource type="Texture2D" uid="uid://cufldmoaa1jn3" path="res://images/bar-frame.png" id="4_nx2ai"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Transportation" type="Sprite2D" parent="."]
+texture = ExtResource("1_8yoel")
+centered = false
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = 5.0
+offset_top = 18.0
+offset_right = 605.0
+offset_bottom = 398.0
+color = Color(0, 0, 0, 0.72549)
+
+[node name="RichTextLabel" type="RichTextLabel" parent="ColorRect"]
+layout_mode = 0
+offset_left = 23.0
+offset_top = 26.0
+offset_right = 361.0
+offset_bottom = 326.0
+theme_override_fonts/normal_font = ExtResource("2_eaeb6")
+text = "Taşımacılık
+
+Taşımacılık işkolu, dünya ekonomisinin bel kemiğini oluşturan, malların, hizmetlerin ve insanların bir yerden başka bir yere aktarılmasını sağlayan geniş bir işkoludur. Kara, hava ve deniz taşımacılığı; otomobiller, uçaklar, trenler, gemiler gibi çeşitli taşıma araçlarıyla, küresel ticaretin ve toplumsal hareketliliğin temelini oluşturur. Bu işkolunda, lojistik hizmetler, ulaşım altyapıları ve taşımacılık araçlarının üretimi gibi alt kollar bulunur. Günümüzde özellikle, küresel tedarik zincirlerinin işlerliği, bu işkolunun etkin çalışmasına bağlıdır.
+
+Gelecekte taşımacılık işkolu, hızla gelişen teknolojilerle köklü bir dönüşüm geçirecektir. Otonom araçlar, drone taksiler ve hiperses hızında ulaşım sistemleri, kara, hava ve deniz taşımacılığında devrim yaratacak. Aynı zamanda, hiperloop ve manyetik levitasyon sistemleri ile şehir içi ve şehirler arası ulaşımda büyük hız kazanılacak. Akıllı ulaşım ağları, sürdürülebilir ve verimli taşımacılık çözümleri sunarken, teleporte ve holografik yolculuk sistemleri gibi yenilikler, taşımacılığın sınırlarını yeniden tanımlayacak. "
+
+[node name="Control" type="Control" parent="."]
+anchors_preset = 0
+offset_left = 431.0
+offset_top = 47.0
+offset_right = 533.0
+offset_bottom = 66.0
+scale = Vector2(1.5, 1.5)
+
+[node name="Bar" type="Sprite2D" parent="Control"]
+position = Vector2(1, 1)
+texture = ExtResource("3_m5xrc")
+centered = false
+
+[node name="Bar-frame" type="Sprite2D" parent="Control"]
+texture = ExtResource("4_nx2ai")
+centered = false
+
+[node name="smuggling" type="RichTextLabel" parent="Control"]
+layout_mode = 0
+offset_left = 1.0
+offset_top = 8.0
+offset_right = 32.0
+offset_bottom = 22.0
+theme_override_fonts/normal_font = ExtResource("2_eaeb6")
+theme_override_font_sizes/normal_font_size = 10
+text = "%4"
+fit_content = true
+scroll_active = false
+
+[node name="production" type="RichTextLabel" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.495196
+anchor_top = 0.421053
+anchor_right = 0.495196
+anchor_bottom = 0.421053
+offset_left = -13.51
+offset_right = 13.49
+offset_bottom = 14.0
+theme_override_fonts/normal_font = ExtResource("2_eaeb6")
+theme_override_font_sizes/normal_font_size = 10
+text = "%76"
+fit_content = true
+scroll_active = false
+metadata/_edit_use_anchors_ = true
+
+[node name="importing" type="RichTextLabel" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -30.0
+offset_top = 8.0
+offset_right = -1.52588e-05
+offset_bottom = 22.0
+grow_horizontal = 0
+grow_vertical = 2
+theme_override_fonts/normal_font = ExtResource("2_eaeb6")
+theme_override_font_sizes/normal_font_size = 10
+text = "%20"
+fit_content = true
+scroll_active = false
+text_direction = 2
+
+[node name="Control2" type="Control" parent="."]
+anchors_preset = 0
+offset_left = 260.0
+offset_top = 47.0
+offset_right = 362.0
+offset_bottom = 66.0
+scale = Vector2(1.5, 1.5)
+
+[node name="Bar" type="Sprite2D" parent="Control2"]
+position = Vector2(1, 1)
+texture = ExtResource("3_m5xrc")
+centered = false
+
+[node name="Bar-frame" type="Sprite2D" parent="Control2"]
+texture = ExtResource("4_nx2ai")
+centered = false
+
+[node name="smuggling" type="RichTextLabel" parent="Control2"]
+layout_mode = 0
+offset_left = 1.0
+offset_top = 8.0
+offset_right = 32.0
+offset_bottom = 22.0
+theme_override_fonts/normal_font = ExtResource("2_eaeb6")
+theme_override_font_sizes/normal_font_size = 10
+text = "%4"
+fit_content = true
+scroll_active = false
+
+[node name="production" type="RichTextLabel" parent="Control2"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.495196
+anchor_top = 0.421053
+anchor_right = 0.495196
+anchor_bottom = 0.421053
+offset_left = -13.51
+offset_right = 13.49
+offset_bottom = 14.0
+theme_override_fonts/normal_font = ExtResource("2_eaeb6")
+theme_override_font_sizes/normal_font_size = 10
+text = "%76"
+fit_content = true
+scroll_active = false
+metadata/_edit_use_anchors_ = true
+
+[node name="importing" type="RichTextLabel" parent="Control2"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -30.0
+offset_top = 8.0
+offset_right = -1.52588e-05
+offset_bottom = 22.0
+grow_horizontal = 0
+grow_vertical = 2
+theme_override_fonts/normal_font = ExtResource("2_eaeb6")
+theme_override_font_sizes/normal_font_size = 10
+text = "%20"
+fit_content = true
+scroll_active = false
+text_direction = 2

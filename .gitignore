@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Godot 4+ specific ignores
+.godot/
+/android/
+/godot-ile-yapilan-taslak/.godot/
+/godot-ile-yapilan-taslak/android/
